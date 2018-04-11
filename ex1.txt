@@ -1,0 +1,22 @@
+First order dependencies
+
+rospack depends1 mrc_hw2
+	std_msgs
+
+
+
+Indirect dependencies
+
+rospack depends mrc_hw2
+	cpp_common
+	rostime
+	roscpp_traits
+	rosscpp_serializiatoin
+	catkin
+	genmsg
+	genpy
+	message_runtime
+	std_msgs
+
+
+
